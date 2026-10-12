@@ -10,25 +10,25 @@ return {
         max_devices = 20,
         SLOT = "1"
     },
-    ["DEMO123"] = {
-        type = "DEMO",
-        expiry = "2026-08-01",
+    ["REHAN-VIP"] = {
+        type = "VIP-USER",
+        expiry = "2027-08-01",
         valid = true,
-        max_devices = 5,
-        SLOT = "2"
+        max_devices = 100,
+        SLOT = "1000"
     },
     ["SINGLE_USER"] = {
         type = "VIP",
-        expiry = "2025-01-01",
+        expiry = "2027-01-01",
         valid = true,
         max_devices = 1,
         SLOT = "3"
     },
     ["BLOCKED"] = {
         type = "BLOCKED",
-        expiry = "2026-12-31",
+        expiry = "2027-12-31",
         valid = false,
         max_devices = 1,
-        SLOT = "0"
+        SLOT = "10"
     }
 }
